@@ -37,7 +37,7 @@ const Section = styled(motion.div)`
 
   @media (max-width: 425px) {
     background-image: url(${MobileBanner});
-    height: 80vh;
+    height: 90vh;
 
   }
 `;

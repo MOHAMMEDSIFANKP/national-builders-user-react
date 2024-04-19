@@ -16,6 +16,10 @@ const Paragraph = styled.p`
   font-size: 1.2rem;
 
   @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 425px) {
     font-size: 1rem;
   }
 `;

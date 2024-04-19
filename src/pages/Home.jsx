@@ -37,11 +37,11 @@ function Home() {
     <Header/>
     <HomeBanner animationConfig={animationConfig}/>
     <TextAndCounts animationConfig={animationConfig}/>
-    <AwardsAndRecognitions animationConfig={animationConfig}/>
-    <Ourpresence animationConfig={animationConfig}/>
-    <VideoTag animationConfig={animationConfig}/>
+    {/* <AwardsAndRecognitions animationConfig={animationConfig}/> */}
+    {/* <Ourpresence animationConfig={animationConfig}/> */}
+    {/* <VideoTag animationConfig={animationConfig}/> */}
     {/* <Testimonials animationConfig={animationConfig}/> */}
-    <NewsAndBlogs animationConfig={animationConfig}/>
+    {/* <NewsAndBlogs animationConfig={animationConfig}/> */}
     <Footer/>
     </>
   )
