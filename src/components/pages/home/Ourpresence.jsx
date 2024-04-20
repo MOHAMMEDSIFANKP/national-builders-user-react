@@ -7,7 +7,21 @@ import styled from 'styled-components';
 import Text from '../../common/Text';
 import AnimationButton from '../../common/Button';
 
-function Ourpresence({animationConfig}) {
+function Ourpresence() {
+    const animationConfig = {
+        initial: {
+          opacity: 0,
+          y: 50,
+        },
+        whileInView: {
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 0.5,
+            delay: 0.5,
+          },
+        },
+      };
    
 
     useEffect(() => {
